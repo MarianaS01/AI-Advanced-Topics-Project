@@ -8,6 +8,7 @@ El código del trabajo se encuentra en la carpeta code. A continuación se expli
 Para correr la mayoría de códigos es necesario contar con las librerías:
 * TensorFlow
 * TensorFlowHub
+* OpenCV
 * Numpy
 * Matplotlib
 * Pandas
@@ -16,8 +17,11 @@ Para correr la mayoría de códigos es necesario contar con las librerías:
 Para instalar los módulos siguientes se debe contar con Python y el manejador de paquetes `pip`. Para instalarlos se deberán correr los siguientes comandos:
 ```bash
 pip install numpy
+pip install tensorflow
+pip install tensorflow-hub
 pip install opencv-python
-pip install PIL
+pip install matplotlib
+pip install pandas
 ```
 
 

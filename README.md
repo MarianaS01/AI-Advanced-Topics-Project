@@ -12,6 +12,15 @@ Para correr la mayoría de códigos es necesario contar con las librerías:
 * Matplotlib
 * Pandas
 
+### Instalar las librerías necesarias
+Para instalar los módulos siguientes se debe contar con Python y el manejador de paquetes `pip`. Para instalarlos se deberán correr los siguientes comandos:
+```bash
+pip install numpy
+pip install opencv-python
+pip install PIL
+```
+
+
 ## WasteDetector.ipynb
 Este Jupyter Notebook contiene todo el proceso desde la descarga y separación del dataset hasta el entrenamiento y guardado del modelo de clasificación. 
 El correr este código implica que los datos obtenidos previamente serán reemplazados por los obtenidos al correr nuevamente las celdas del notebook.
@@ -19,7 +28,7 @@ El correr este código implica que los datos obtenidos previamente serán reempl
 Se recomienda usar desde GoogleColab. 
 
 ## PredictWaste.ipynb
-Este Notebook permite probar el modelo de clasificación obtenido de WasteDetector.ipynb con cualquier imagen, para ejecutar este archivo de manera local se debe clonar el repositorio. Si se desea probar con alguna imagen que no esté en la carpeta images, se debe cargar la imagen a dicho directorio y crear una nueva celda en el notebook con la siguiente información:
+Este Notebook permite probar el modelo de clasificación obtenido de WasteDetector.ipynb con cualquier imagen, para ejecutar este archivo de manera local se debe clonar el repositorio o descargarlo. Si se desea probar con alguna imagen que no esté en la carpeta images, se debe cargar la imagen a dicho directorio y crear una nueva celda en el notebook con la siguiente información:
 
 ![Imagen de demostración](assets/new_prediction.png)
 

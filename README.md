@@ -37,7 +37,7 @@ Este Notebook permite probar el modelo de clasificación obtenido de WasteDetect
 ![Imagen de demostración](assets/new_prediction.png)
 
 ## CanRectangle.ipynb
-Este archivo contiene el código para la ubicación del centro de la lata usando filtros. Para correrlo solo es necesario correr cada celda del notebook.
+Este archivo contiene el código para la ubicación del centro de la lata usando filtros. Para correrlo solo es necesario ejecutar cada celda del notebook.
 
 ## main.py
 Este archivo es el programa principal, para probarlo solo es necesario correr el archivo. Para probar con una nueva imagen se debe tomar la fotografía desde una altura de 63cm (simulando así la altura de la cámara respecto al robot), y colocar el objeto a 28cm en el eje x, y 22cm en el eje, medidos desde la esquina superior izquierda. 

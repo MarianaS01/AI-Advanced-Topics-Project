@@ -21,3 +21,4 @@ Se recomienda usar desde GoogleColab.
 ## PredictWaste.ipynb
 Este Notebook permite probar el modelo de clasificación obtenido de WasteDetector.ipynb con cualquier imagen, para ejecutar este archivo de manera local se debe clonar el repositorio. Si se desea probar con alguna imagen que no esté en la carpeta images, se debe cargar la imagen a dicho directorio y crear una nueva celda en el notebook con la siguiente información:
 
+![Imagen de demostración](assets/new_prediction.png)

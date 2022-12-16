@@ -22,3 +22,12 @@ Se recomienda usar desde GoogleColab.
 Este Notebook permite probar el modelo de clasificación obtenido de WasteDetector.ipynb con cualquier imagen, para ejecutar este archivo de manera local se debe clonar el repositorio. Si se desea probar con alguna imagen que no esté en la carpeta images, se debe cargar la imagen a dicho directorio y crear una nueva celda en el notebook con la siguiente información:
 
 ![Imagen de demostración](assets/new_prediction.png)
+
+## CanRectangle.ipynb
+Este archivo contiene el código para la ubicación del centro de la lata usando filtros. Para correrlo solo es necesario correr cada celda del notebook.
+
+## main.py
+Este archivo es el programa principal, para probarlo solo es necesario correr el archivo. Para probar con una nueva imagen se debe tomar la fotografía desde una altura de 63cm (simulando así la altura de la cámara respecto al robot), y colocar el objeto a 28cm en el eje x, y 22cm en el eje, medidos desde la esquina superior izquierda. 
+
+## waste_detector_model.h5
+Es el archivo del modelo de clasificación, dicho archivo se puede cargar en cualquier programa ya sea de Python, Android, etc., para ser usado en cualquier aplicación para detectar los 4 tipos de envases de este proyecto.
